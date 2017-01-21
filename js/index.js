@@ -200,7 +200,7 @@ function fuAdd() {
       window.wcShare.shareData = {
         title: "马云意外透露了2017年最赚钱的趋势和方法，太牛了！!",
         desc: '马云意外透露了2017年最赚钱的趋势和方法，太牛了！',
-        img_url: 'http://sa.gkdiandu.cn/static/img/red.png',
+        img_url: 'http://g.hiphotos.baidu.com/image/pic/item/3c6d55fbb2fb43165b67b72529a4462309f7d371.jpg',
         link: "http://p.t.qq.com/longweibo/?lid=18411570844553379173" //微交易
       }
       $('.go-ji').hide();
@@ -231,7 +231,7 @@ window.onload = function() {
            window.wcShare.shareData = {
         title: "马云意外透露了2017年最赚钱的趋势和方法，太牛了！!",
         desc: '马云意外透露了2017年最赚钱的趋势和方法，太牛了！',
-        img_url: 'http://sa.gkdiandu.cn/static/img/red.png',
+        img_url: 'http://g.hiphotos.baidu.com/image/pic/item/3c6d55fbb2fb43165b67b72529a4462309f7d371.jpg',
         link: "http://p.t.qq.com/longweibo/?lid=18411570844553379173" //微交易
       }
         }
