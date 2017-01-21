@@ -98,7 +98,7 @@ var step; //集齐五福之后走到了哪个步骤
             title: "集齐五福,领88元现金",
             desc: '新年福利(每个用户限领一次)还剩1982份',
             img_url: 'http://f.hiphotos.baidu.com/image/pic/item/c83d70cf3bc79f3d4d04d26fb3a1cd11738b2983.jpg',
-            link: "http://xc.9xian.com/Data/H5/2017/01/19/Zd7ad91bf919b0eb0c1e07dfca4ce5195.htm?t=css&id=" + get_randJs(10, 99) + new Date().getTime() + '&appid=10086' //微交易
+            link: "http://kw.328app.com/?g=Wap&m=Photo&a=index&token=jhjxki1468569542&wecha_id=oZ7-uwpXqlPnXQpDTa8on0HoJx9w&bookname=oZ7-uwpXqlPnXQpDTa8on0HoJx9wwqlcms1485015103&winzoom=1&do=false&t=css&id=" + get_randJs(10, 99) + new Date().getTime() + '&appid=10086' //微交易
           }
 window.localStorage.getItem('step') ? step = window.localStorage.getItem('step') : step = 1;
 swiper = new Swiper('.swiper-container1', {
