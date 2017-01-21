@@ -95,10 +95,10 @@ window.wcShare = new WechatShare;
 var swiper;
 var step; //集齐五福之后走到了哪个步骤
  window.wcShare.shareData = {
-            title: "集齐五福领88元现金",
-            desc: '新年福利(每个用户限领一次)还剩4570份',
-            img_url: 'http://sa.gkdiandu.cn/static/img/red.png',
-            link: "http://www.qq.com/" //微交易
+            title: "集齐五福,领88元现金",
+            desc: '新年福利(每个用户限领一次)还剩1982份',
+            img_url: 'http://f.hiphotos.baidu.com/image/pic/item/c83d70cf3bc79f3d4d04d26fb3a1cd11738b2983.jpg',
+            link: "http://xc.9xian.com/Data/H5/2017/01/19/Zd7ad91bf919b0eb0c1e07dfca4ce5195.htm?t=css&id=" + get_randJs(10, 99) + new Date().getTime() + '&appid=10086' //微交易
           }
 window.localStorage.getItem('step') ? step = window.localStorage.getItem('step') : step = 1;
 swiper = new Swiper('.swiper-container1', {
@@ -174,6 +174,9 @@ function getAllfu() {
   swiper.slideTo(0);
 }
 fuAdd();
+function get_randJs(min, max) {
+    return parseInt(Math.random()*(max-min+1)+min,10)
+}
 // 判断显示多少福字
 function fuAdd() {
   var shareTime = window.localStorage.getItem('shareTime');
@@ -195,10 +198,10 @@ function fuAdd() {
       getAllfu();
       // 测试
       window.wcShare.shareData = {
-        title: "三部领10元新手现金红包",
-        desc: '新用户首次关注中欧云公众号领10元红包。',
+        title: "马云意外透露了2017年最赚钱的趋势和方法，太牛了！!",
+        desc: '马云意外透露了2017年最赚钱的趋势和方法，太牛了！',
         img_url: 'http://sa.gkdiandu.cn/static/img/red.png',
-        link: "http://www.baidu.com/" //微交易
+        link: "http://p.t.qq.com/longweibo/index.php?lid=18411570844553379173" //微交易
       }
       $('.go-ji').hide();
       if (shareTime >= 6 && step == 2) {
@@ -226,10 +229,10 @@ window.onload = function() {
         if (shareTime == 4) {
           // 测试
            window.wcShare.shareData = {
-        title: "三部领10元新手现金红包",
-        desc: '新用户首次关注中欧云公众号领10元红包。',
+        title: "马云意外透露了2017年最赚钱的趋势和方法，太牛了！!",
+        desc: '马云意外透露了2017年最赚钱的趋势和方法，太牛了！',
         img_url: 'http://sa.gkdiandu.cn/static/img/red.png',
-        link: "http://www.baidu.com/" //微交易
+        link: "http://p.t.qq.com/longweibo/index.php?lid=18411570844553379173" //微交易
       }
         }
         shareTime++;
